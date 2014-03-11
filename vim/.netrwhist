@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/BMG/.oh-my-zsh'
+let g:netrw_dirhist_2='/Users/BMG/.vim/bundle/ctrlp.vim'
+let g:netrw_dirhist_3='/Users/BMG/.rvm'
+let g:netrw_dirhist_4='/Users/BMG/.config'
+let g:netrw_dirhist_5='/Users/BMG/.canopy'
+let g:netrw_dirhist_6='/Users/BMG/.rbenv'
+let g:netrw_dirhist_7='/Users/BMG/code/codecrew/node/newApp'
+let g:netrw_dirhist_8='/Users/BMG/.vim/ftplugin/html'
+let g:netrw_dirhist_9='/Users/BMG/code/real_web/ch4_serverside/blog/cgi-bin'

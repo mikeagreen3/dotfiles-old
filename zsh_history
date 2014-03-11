@@ -1,0 +1,2046 @@
+: 1377743083:0;ls
+: 1377743086:0;cd pycon2013-master
+: 1377743086:0;ls
+: 1377743092:0;cd data
+: 1377743093:0;ls
+: 1377743118:0;cd ../
+: 1377743119:0;ls
+: 1377743126:0;cd pdf-exports
+: 1377743127:0;ls
+: 1377743132:1;open pycon.pdf
+: 1377776101:0;ls
+: 1377776161:0;cd ~
+: 1377776162:0;ls
+: 1377776170:124;vim .zshrc
+: 1377776297:0;cdpb
+: 1377776315:11;vim .zshrc
+: 1377776330:0;cdpb
+: 1377776339:93;vim .zshrc
+: 1377776434:0;ls
+: 1377776437:0;ls -a
+: 1377776458:0;.rvm
+: 1377776460:24;vim .rvm
+: 1377776523:41;curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+: 1377776571:0;ls
+: 1377776574:0;ls -a
+: 1377776584:329;vim .oh-my-zsh
+: 1377776926:94;vim .zshrc
+: 1377777029:0;cdpb
+: 1377777034:23;vim .zshrc
+: 1377777065:0;source .zshrc
+: 1377777078:0;cdpd
+: 1377777085:0;cdpb
+: 1377777086:0;ls
+: 1377777123:0;cd RealPythonfortheWeb2
+: 1377777123:0;ls
+: 1377777176:0;cp Real\ Python\ for\ the\ Web\ -\ Michael\ Herman.mobi ~/Dropbox/Books/Python
+: 1377777228:0;ls
+: 1377777231:0;cd ../
+: 1377777231:0;ls
+: 1377777246:0;cd Real\ Python\ 2-4
+: 1377777247:0;ls
+: 1377777353:0;cp Real\ Python\ 2-4.azw3 ~/Dropbox/Books/Python/
+: 1377777444:0;cp Real\ Python\ 2-4.mobi ~/Dropbox/Books/Python/
+: 1377777719:0;cd ~/code/pycon
+: 1377777720:0;ls
+: 1377777724:0;cd pycon2013-master
+: 1377777725:0;ls
+: 1377777743:0;ipython pycon.ipynb
+: 1377777760:0;ipython --pylab
+: 1377815271:0;ls
+: 1377815290:0;cd ../../real_py/Course\ materials/Chapter\ 9/mywork
+: 1377815291:0;ls
+: 1377815303:0;ipython
+: 1377824097:0;cd ../../Chapter\ 10
+: 1377824099:0;ls 
+: 1377824105:0;mkdir mywork
+: 1377824120:0;cd mywork
+: 1377824120:0;ls
+: 1377826150:0;brew install reattach-to-user-namespace
+: 1377826323:0;cd ~
+: 1377826324:0;ls
+: 1377826329:0;ls -a
+: 1377826409:0;tmux
+: 1377826952:0;exit
+: 1377826995:0;brew uninstall tmux
+: 1377827004:0;brew update
+: 1377827042:0;brew instal tmux
+: 1377827111:0;ls -a
+: 1377827264:0;vim .tmux.config
+: 1377827318:0;source .tmux.config
+: 1377827325:0;tmux
+: 1377827409:0;exit
+: 1377827630:0;rm .tmux.config
+: 1377827749:0;tmux
+: 1377827755:0;exit
+: 1377827765:0;tmux
+: 1377827835:0;help
+: 1377827841:0;man tmuz
+: 1377827846:0;man tmux
+: 1377827890:0;d
+: 1377828100:0;ls
+: 1377828159:0;ls -a
+: 1377828244:0;vim .tmux.config
+: 1377828297:0;source .tmux.config
+: 1377828316:0;exit
+: 1377828360:0;brew uninstall tmux
+: 1377828370:0;tmux
+: 1377828390:0;brew uninstall tmux
+: 1377828396:0;brew install tmux
+: 1377828460:0;vim ~/.tmux.config
+: 1377828479:0;tmux
+: 1377828574:0;exit
+: 1377828614:0;tmux
+: 1377828879:0;vim .tmux.config
+: 1377828925:0;tmux detach
+: 1377828931:0;tmux
+: 1377829011:0;detach
+: 1377829019:0;detach 
+: 1377829021:0;exit
+: 1377829134:0;vim .tmux.config
+: 1377829161:0;vim .tmux.conf
+: 1377829172:0;tmux
+: 1377829181:0;detach
+: 1377829188:0;tmux detach
+: 1377829202:0;tmux source-file ~/.tmux.conf
+: 1377829206:0;tmux
+: 1377829241:0;detach
+: 1377829253:0;rm .tmux.config
+: 1377829257:0;vim .tmux.conf
+: 1377829351:0;tmux source-file ~/.tmux.conf
+: 1377829353:0;tmux
+: 1377829401:0;tmux -s python
+: 1377829416:0;tmux new -s python
+: 1377829473:0;cd code/real_py/Course\ materials/Chapter\ 11
+: 1377829474:0;ls
+: 1377829483:0;mkdir mywork
+: 1377829484:0;cd mywork
+: 1377829503:0;cd code/real_py/Course\ materials/Chapter\ 11
+: 1377829503:0;ls
+: 1377829513:0;ipython
+: 1377829542:0;vim example.py
+: 1377829618:0;cd ../../Chapter\ 10
+: 1377829619:0;ls
+: 1377829622:0;cd mywork
+: 1377829623:0;ls
+: 1377829651:0;tmux list
+: 1377829664:0;tmux list-sessions
+: 1377829699:0;tmux attach python
+: 1377829712:0;tmux attach-session python
+: 1377829737:0;tmux attach0session -t python
+: 1377829751:0;tmux attach-session -t python
+: 1378421360:0;ls
+: 1378421371:0;cd ~
+: 1378421372:0;ls
+: 1378421637:0;vim .zshrc
+: 1378421701:0;source .zshrc
+: 1378422463:0;ls
+: 1378422469:0;cd code
+: 1378422470:0;ls
+: 1378422474:0;cd real_py
+: 1378422475:0;ls
+: 1378422480:0;cd Course\ materials
+: 1378422488:0;l
+: 1378422489:0;ls
+: 1378422489:0;l
+: 1378422494:0;ls
+: 1378422516:0;cd Chapter\ 10
+: 1378422517:0;ls
+: 1378422519:0;cd mywork
+: 1378422519:0;ls
+: 1378423313:0;vim ~/.tmux.conf
+: 1378423737:0;source-file ~/.tmux.conf
+: 1378423756:0;source ~/.tmux.conf
+: 1378423824:0;ls
+: 1378424500:0;tmux source-file ~/.tmux.conf
+: 1378427325:0;ls
+: 1378427500:0;vim parseHtml.py
+: 1378428301:0;vim ex10_2.py
+: 1378429011:0;ls
+: 1378429013:0;cd ../
+: 1378429013:0;ls
+: 1378429017:0;cd Assignment\ solutions
+: 1378429017:0;ls
+: 1378429029:0;vim 10-1\ review\ exercises.py
+: 1378429875:0;cd ../
+: 1378429878:0;cd mywork
+: 1378429879:0;ls
+: 1378429882:0;vim ex10_2.py
+: 1378431372:0;cd ~/.vim/bundle
+: 1378431373:0;ls
+: 1378436105:0;cd ~/code/real_py/Course\ materials/Chapter\ 10/Assignment\ solutions
+: 1378436106:0;ls
+: 1378436117:0;vim 10-1
+: 1378436126:0;vim 10-1\ review\ exercises.py
+: 1378436576:0;vim ex10_2.py
+: 1378437222:0;ls
+: 1378437257:0;rn ex10_2.py ex10_1.py 
+: 1378437264:0;mv ex10_2.py ex10_1.py 
+: 1378437266:0;ls
+: 1378437314:0;pip install beautifulsoup4
+: 1378578431:0;ipython
+: 1378578444:0;ls
+: 1378578502:0;sudo pip mechanize
+: 1378578525:0;pip search mechanize
+: 1378578553:0;pip install mechanize
+: 1378579914:0;vim login.py
+: 1378585121:0;vim printTitles.py
+: 1378586139:0;ls
+: 1378586168:0;vim ex10_3.py
+: 1378589373:0;vim ../Assignment\ solutions/10-3\ review\ exercises.py
+: 1378589421:0;vim ex10_3.py
+: 1378589973:0;vim yahooPrice.py
+: 1378592699:0;vim ex10_4.py
+: 1378594228:0;pip list
+: 1378638814:0;cp ex10_4.py nytm.py
+: 1378638815:0;ls
+: 1378638818:0;vim nytm.py
+: 1378768615:0;tmux list
+: 1378768618:0;tmux -list
+: 1378768626:0;tmux -l
+: 1378768633:0;q
+: 1378768636:0;d
+: 1378768654:0;tmux -help
+: 1378768658:0;thum -h
+: 1378768662:0;tmux -h
+: 1378768666:0;tmux -l
+: 1378768709:0;tmux list-sessions
+: 1378768768:0;tmux new -s learncs
+: 1378768888:0;tmux list-sessions
+: 1378768897:0;tmux learncs
+: 1378768953:0;tmux attach learncs
+: 1378768964:0;tmux open leancs
+: 1378768975:0;tmux -s learncs
+: 1378769028:0;tmux learncs
+: 1378769040:0;tmux new learncs
+: 1378769049:0;tmux new -s learncs
+: 1378769067:0;tmux new -s learncs101
+: 1378769127:0;tmux list-session
+: 1378769142:0;tmux name learncs
+: 1378769343:0;tmux list-commands
+: 1378769375:0;tmux choose-session learncs
+: 1378769392:0;tmux choose-session -t learncs
+: 1378769514:0;tmux -a learncs
+: 1378769524:0;tmux kill-session learncs
+: 1378769535:0;tmux kill-session -t learncs
+: 1378769541:0;tmux ls
+: 1378769551:0;tmux kill-session -t 0
+: 1378769555:0;tmux kill-session -t 10
+: 1378769557:0;tmux kill-session -t 11
+: 1378769559:0;tmux kill-session -t 13
+: 1378769562:0;tmux kill-session -t 14
+: 1378769565:0;tmux kill-session -t 5
+: 1378769569:0;tmux kill-session -t 7
+: 1378769573:0;tmux ls
+: 1378769580:0;tmux kill-session -t 9
+: 1378769587:0;tmux new -s learncs
+: 1378769598:0;ls
+: 1378769601:0;cd code
+: 1378769602:0;ls
+: 1378769624:0;mkdir learncs101
+: 1378769626:0;cd learncs101
+: 1378769627:0;ls
+: 1378769639:0;vim citibike.py
+: 1378769646:0;ipython 
+: 1378769775:0;pip search pycitibike
+: 1378769796:0;pip install PyCitibike
+: 1378773216:0;brew install reattach-to-user-namespace
+: 1378773240:0;vim ~/.tmux.conf
+: 1378773293:0;vim .tmux.conf
+: 1378773320:0;rm .tmux.conf.swp
+: 1378773332:0;tmux list-sessions
+: 1378773368:0;tmux list-commands
+: 1378773472:0;tmux learncs
+: 1378773498:0;lmux -t learncs
+: 1378773505:0;tmux -t learncs
+: 1378773518:0;tmux new -t learncs
+: 1378773601:0;vim .tmux.conf
+: 1378773664:0;tmux source-file .tmux.conf
+: 1378853649:0;tmux kill-session learncs101
+: 1378853676:0;tmux list-sessions
+: 1378853684:0;tmux kill-session learncs
+: 1378853696:0;brew list
+: 1378853706:0;npm search express
+: 1378853752:0;node --version
+: 1378853770:0;open http://node.org
+: 1378853830:0;brew upgrade nodejs
+: 1378853843:0;brew search nodejs
+: 1378853850:0;brew list
+: 1378853857:0;brew update
+: 1378853966:0;who nodejs
+: 1378853968:0;who node
+: 1378853977:0;pwd node
+: 1378853981:0;pwd
+: 1378853988:0;node --version
+: 1378854004:0;brew upgrade nodejs
+: 1378854067:0;$PATH
+: 1378854084:0;vim $PATH
+: 1378854089:0;ls
+: 1378854125:0;node --v
+: 1378854134:0;node --version
+: 1378854878:0;ls
+: 1378854902:0;mkdir events
+: 1378854904:0;cd events
+: 1378854905:0;ls
+: 1378855094:0;mkdir nodelingo
+: 1378855096:0;cd nodelingo
+: 1378855096:0;ls
+: 1378855158:0;vim notes.txt
+: 1378901048:0;tmux list-sessions
+: 1378901151:0;ls -
+: 1378901153:0;ls -l
+: 1378901162:0;ls -a
+: 1378901174:0;vim .zshrc
+: 1378901242:0;cdpb
+: 1378901245:0;ls
+: 1378901294:0;open RealPythonfortheWeb2/Real\ Python\ for\ the\ Web\ -\ v2.pdf
+: 1378901699:0;pip install --user git+git://github.com/Lokaltog/powerline
+: 1378901716:0;ls
+: 1378901722:0;vim test.py
+: 1378901815:0;ls
+: 1378901821:0;lsa
+: 1378901824:0;ls -a
+: 1378901870:0;ls code/real_py/
+: 1378901882:0;vim code/real_py/ex.py
+: 1378901934:0;pip list
+: 1378902036:0;python from powerline.vim import setup as powerline_setup
+: 1378902080:0;cd ~/.vim/bundle
+: 1378902099:0;vim .vimrc
+: 1378902158:0;git clone https://github.com/kien/ctrlp.vim.git
+: 1378902213:0;git clone git://github.com/davidhalter/jedi-vim.git
+: 1378902273:0;vim code/real_py/ex.py
+: 1378902302:0;ls
+: 1378902316:0;cd ../
+: 1378902319:0;ls
+: 1378902321:0;vim
+: 1378902339:0;cd ../
+: 1378902340:0;ls
+: 1378902350:0;vim code/real_py/ex_3_2.py
+: 1378902399:0;pip unistall --user git+git://github.com/Lokaltog/powerline
+: 1378902434:0;pip uninstall --user git+git://github.com/Lokaltoafg/powerline
+: 1378938900:0;vim 
+: 1378938917:0;vim code/real_py/ex_5_4.py
+: 1378939006:0;vim .vimrc
+: 1378939013:0;ls
+: 1378939014:0;cd 
+: 1378939018:0;ls
+: 1378939150:0;which powerline
+: 1378939159:0;ls
+: 1378939173:0;pip list
+: 1378939182:0;pip list -l
+: 1378939287:0;ls
+: 1378939463:0;ls ~/.vim/bundle/
+: 1378939473:0;cd ~/.vim/bundle/
+: 1378939489:0;cal
+: 1378939562:0;ls
+: 1378939667:0;rm jedi-vim/
+: 1378939674:0;rm -R jedi-vim/
+: 1378939789:0;ls
+: 1378939801:0;vim -R ctrlp.vim
+: 1378939811:0;rm -R ctrlp.vim
+: 1378940377:0;cd ../
+: 1378940383:0;ls
+: 1378940391:0;cd code/real_py
+: 1378940393:0;ls
+: 1378940401:0;vim ex_3_2.py
+: 1378940426:0;ls -l
+: 1378940431:0;ls -a
+: 1378940452:0;rm .ex.py.swp
+: 1378940469:0;rm .ex_3_2.py.swp
+: 1378940479:0;rm .ex_5_4.py.swp
+: 1378940487:0;rm .ex_5_4.py.swo
+: 1378940488:0;ls
+: 1378940517:0;rm ex_5_4
+: 1378940525:0;rm ex_5_6
+: 1378941403:0;cd ~/.vim/bundle
+: 1378941403:0;ls
+: 1378941449:0;git clone git://github.com/nvie/vim-flake8
+: 1378941466:0;vim ~/code/real_py/ex.py
+: 1378941554:0;pip install flake8
+: 1378941569:0;vim ~/code/real_py/ex.py
+: 1378941799:0;ls
+: 1378941809:0;vim ~/.vimrc
+: 1378942046:0;ls
+: 1378942048:0;cd ../
+: 1378942049:0;ls
+: 1378942053:0;cd ../
+: 1378942054:0;ls
+: 1378942087:0;cd .vim
+: 1378942088:0;ls
+: 1378942090:0;pwd
+: 1378942099:0;git init
+: 1378942143:0;vim ~/.vimrc
+: 1378942268:0;ls
+: 1378942270:0;pwd
+: 1378942278:0;ls
+: 1378942333:0;cd bundle
+: 1378942348:0;git help
+: 1378942370:0;git submodule --help
+: 1378942453:0;ls
+: 1378942581:0;git submodule add https://github.com/ervandew/supertab.git bundle/supertab
+: 1378942588:0;cd ../
+: 1378942589:0;ls
+: 1378942595:0;git submodule add https://github.com/ervandew/supertab.git bundle/supertab
+: 1378942698:0;git submodule add https://github.com/sontek/minibufexpl.vim.git bundle/minibufexpl
+: 1378942711:0;git submodule add https://github.com/wincent/Command-T.git bundle/command-t
+: 1378942725:0;git submodule add https://github.com/mileszs/ack.vim.git bundle/ack
+: 1378942788:0;git submodule add https://github.com/sjl/gundo.vim.git bundle/gundo
+: 1378942838:0;git submodule add https://github.com/fs111/pydoc.vim.git bundle/pydoc
+: 1378942872:0;git submodule add https://github.com/alfredodeza/pytest.vim.git bundle/py.test
+: 1378946457:0;git submodule add https://github.com/sontek/rope-vim.git bundle/ropevim
+: 1378946544:0;git submodule add https://github.com/vim-scripts/TaskList.vim.git bundle/tasklist
+: 1378946555:0;git submodule add https://github.com/sontek/rope-vim.git bundle/ropevim
+: 1378946584:0;git submodule init
+: 1378946592:0;git submodule update
+: 1378946599:0;git submodule foreach git submodule init
+: 1378946608:0;git submodule foreach git submodule update
+: 1378946621:0;ls
+: 1378947957:0;mkdir snippets
+: 1378947966:0;cd ~
+: 1378947985:0;vim ~/.vim/snippets/python.snippets
+: 1378948055:0;vim
+: 1378948090:0;vim ~/.vimrc
+: 1378948195:0;vim .vimrc
+: 1378948626:0;vim code/real_py/ex_3_2.py
+: 1378948684:0;vim code/real_py/coin_toss.py
+: 1378949044:0;ls
+: 1378949053:0;cd .vim/bundle/command-t
+: 1378949054:0;ls
+: 1378949063:0;run make
+: 1378949073:0;rake make
+: 1378949110:0;vim code/real_py/ex_3_2.py
+: 1378949138:0;ls
+: 1378949143:0;cd ~
+: 1378949152:0;vim code/real_py/ex_3_2.py
+: 1378949164:0;vim code/real_py/factors.py
+: 1378949248:0;rm .vim/bundle/command-t
+: 1378949255:0;rm -R .vim/bundle/command-t
+: 1378949261:0;vim code/real_py/ex_3_2.py
+: 1378984924:0;tmux list-sessions
+: 1378984946:0;cd code/real_py
+: 1378984947:0;ls
+: 1378984960:0;cd ../
+: 1378984966:0;ls
+: 1378984977:0;cd ../
+: 1378984989:0;cd Projects/python/scrapper
+: 1378984990:0;ls
+: 1378984996:0;vim scrappy.py
+: 1378985021:0;vim ~/.vimrc
+: 1378985037:0;vim scrappy.py
+: 1378985351:0;python scrappy.py
+: 1378985358:0;pip list
+: 1378985364:0;vim scrappy.py
+: 1378985392:0;python who
+: 1378985416:0;which python
+: 1378985443:0;ipython scrappy.py
+: 1378985462:0;python scrappy.py
+: 1378985540:0;cd ~/code/real_py/Course\ materials/Chapter\ 10/mywork
+: 1378985540:0;ls
+: 1378985544:0;python nytm.py
+: 1378985556:0;which python
+: 1378985574:0;which ipthon
+: 1378985584:0;which ipython
+: 1378985614:0;ls /usr/local/bin
+: 1378985684:0;which python
+: 1378985696:0;$PATH
+: 1378985762:0;echo $PATH
+: 1378985820:0;vim ~/.profile
+: 1378985844:0;ls - a ~
+: 1378985848:0;ls -a ~
+: 1378987069:0;vim ~/.zshrc
+: 1378987245:0;source ~/.zshrc
+: 1378987256:0;echo $PATH
+: 1378987279:0;vim ~/.zshrc
+: 1379073056:0;source ~/.zshrc
+: 1379073061:0;echo $PATH
+: 1379073096:0;which $PATH
+: 1379073110:0;ls -1
+: 1379073114:0;ls =a
+: 1379073117:0;ls -a
+: 1379073140:0;vim .rvm
+: 1379073160:0;brew uninstall rvm
+: 1379073173:0;rm -R .rvm
+: 1379073243:0;sudo rmdir .rvm
+: 1379073252:0;ls -a
+: 1379073267:0;rm .rvm
+: 1379073274:0;rm -R .rvm
+: 1379073287:0;sudo rm -R .rvm
+: 1379073308:0;ls
+: 1379073310:0;ls -a
+: 1379073326:0;vim .zprofile
+: 1379111171:0;brew uninstall -python
+: 1379111176:0;brew uninstall python
+: 1379112270:0;brew list
+: 1379112290:0;brew uninstall rbenv
+: 1379112305:0;brew uninstall rbenv-gem-rehash
+: 1379112308:0;brew list
+: 1379112342:0;brew uninstall python3
+: 1379112350:0;brew list
+: 1379112373:0;echo $PATH
+: 1379113247:0;ls
+: 1379113250:0;ls -a
+: 1379113276:0;vim .zprofile.pysave
+: 1379113297:0;vim .zprofile
+: 1379113323:0;source .zprofile
+: 1379113330:0;source .zprofile.pysave
+: 1379113339:0;echo $PATH
+: 1379113349:0;ls -a
+: 1379113382:0;vim .zsh
+: 1379113389:0;vim .zshrc
+: 1379113416:0;ls -
+: 1379113418:0;ls -a
+: 1379113433:0;vim .zshrc.pre-oh-my-zsh
+: 1379113491:0;source .zshrc
+: 1379113498:0;ls -a
+: 1379113503:0;echo $PATH
+: 1379113610:0;vim .profile
+: 1379113787:0;ls -a
+: 1379113810:0;vim .config
+: 1379113831:0;vim .bash_profile
+: 1379113848:0;vim .canopy
+: 1379113870:0;sudo rm -R .canopy
+: 1379113880:0;ls
+: 1379118936:0;ls -a
+: 1379118943:0;echo $PATH
+: 1379118992:0;vim .zshrc
+: 1379119035:0;source .zshrc
+: 1379119077:0;which python
+: 1379119089:0;pip list
+: 1379119121:0;vim .bashrc
+: 1379119145:0;rm .bashrc
+: 1379119152:0;ls
+: 1379119154:0;ls -a
+: 1379119162:0;vim .rbenv
+: 1379119175:0;vim .rnd
+: 1379119241:0;echo $PATH
+: 1379119256:0;brew install python --framework
+: 1379173148:0;echo $PATH
+: 1379173166:0;which $PATH
+: 1379173183:0;ls -a
+: 1379173192:0;vim .zshrc
+: 1379173413:0;export PATH=/usr/local/share/python:$PATH
+: 1379173419:0;echo $PATH
+: 1379173437:0;pip list
+: 1379173798:0;cd code/real_py/Course\ materials/Chapter\ 10/mywork
+: 1379173799:0;ls
+: 1379173805:0;python nytm.py
+: 1379173874:0;vim nytm.py
+: 1379173921:0;python nytm.py
+: 1379173933:0;vim nytm.py
+: 1379174094:0;rm .nytm.py.swp
+: 1379174097:0;vim nytm.py
+: 1379174108:0;ls
+: 1379174183:0;mkdir ~/code/nytm
+: 1379174420:0;cp nytm.py ~/code/nytm
+: 1379174434:0;ls ~/code/nytm
+: 1379174469:0;cd ../
+: 1379174469:0;ls
+: 1379174474:0;cd ../
+: 1379174477:0;ls
+: 1379174481:0;cd Chapter\ 11
+: 1379174482:0;ls
+: 1379174485:0;cd mywork
+: 1379174485:0;ls
+: 1379174499:0;cd ../../Chapter\ 12
+: 1379174500:0;ls
+: 1379174523:0;cd ../Chapter\ 11
+: 1379174523:0;ls
+: 1379174528:0;cd mywork
+: 1379174531:0;ls
+: 1379174573:0;open ~/Documents/Books/Development/python/Real\ Python\ 2-4
+: 1379174626:0;tmux new -t realPython
+: 1379174631:0;tmux new -s realPython
+: 1379174647:0;pip list
+: 1379175393:0;pip install python-numpy
+: 1379175409:0;ipython
+: 1379187661:0;vim numpy_ex.py
+: 1379188040:0;python numpy_ex.py
+: 1379188067:0;vim numpy_ex.py
+: 1379188097:0;python numpy_ex.py
+: 1379188123:0;vim numpy_ex.py
+: 1379188896:0;vim ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379188955:0;python ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379197243:0;vim numpy_ex.py
+: 1379197603:0;vim ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379197622:0;vim numpy_ex.py
+: 1379197680:0;vim ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379197757:0;vim numpy_ex.py
+: 1379197778:0;ls
+: 1379197781:0;vim numpy_ex.py
+: 1379197835:0;vim ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379198275:0;ipython
+: 1379198566:0;python ../Assignment\ solutions/11-1\ review\ exercises.py
+: 1379198872:0;ls
+: 1379198878:0;cd ../
+: 1379198878:0;ls
+: 1379198881:0;cd Assignment\ solutions
+: 1379198882:0;ls
+: 1379198894:0;ipython 11-1\ review\ exercises.py
+: 1379198935:0;ls
+: 1379198941:0;ipython
+: 1379199400:0;cd code/real_py/Course\ materials/Chapter\ 11
+: 1379199401:0;ls
+: 1379199416:0;cd Assignment\ solutions
+: 1379199416:0;ls
+: 1379199421:0;vim 11-1\ review\ exercises.py
+: 1379199455:0;python 11-1\ review\ exercises.py
+: 1379199466:0;vim 11-1\ review\ exercises.py
+: 1379199529:0;python 11-1\ review\ exercises.py
+: 1379199565:0;vim 11-1\ review\ exercises.py
+: 1379199593:0;ls
+: 1379199597:0;cd ../
+: 1379199597:0;ls
+: 1379199599:0;cd mywork
+: 1379199600:0;ls
+: 1379199602:0;vim numpy_ex.py
+: 1379199920:0;ls
+: 1379199925:0;python numpy_ex.py
+: 1379200372:0;vim 11-1\ review\ exercises.py
+: 1379200406:0;vim numpy_ex.py
+: 1379200449:0;python numpy_ex.py
+: 1379200501:0;vim numpy_ex.py
+: 1379200649:0;python numpy_ex.py
+: 1379200665:0;vim numpy_ex.py
+: 1379200819:0;python numpy_ex.py
+: 1379201553:0;pip matplotlib
+: 1379201569:0;pip install matplotlib
+: 1379201577:0;pip list
+: 1379287800:0;pip install easygui
+: 1379292802:0;pip list
+: 1379292819:0;pip install easygui
+: 1379292853:0;pip --help
+: 1379292873:0;pip search easygui
+: 1379292884:0;pip install easygui
+: 1379292972:0;cd ../
+: 1379292974:0;ls 
+: 1379292980:0;cd ../Chapter\ 12
+: 1379292982:0;ls
+: 1379293019:0;vim ex12_1.py
+: 1379293087:0;python ex12_1.py
+: 1379293135:0;vim ex12_2.py
+: 1379293293:0;python ex12_2.py
+: 1379293336:0;vim ex12_3.py
+: 1379293521:0;ls .vim/bundle
+: 1379293612:0;vim ex12_3.py
+: 1379293691:0;python ex12_3.py
+: 1379293713:0;vim ex12_3.py
+: 1379293727:0;python ex12_3.py
+: 1379293742:0;vim ex12_3.py
+: 1379293769:0;python ex12_3.py
+: 1379293799:0;cp ex12_3.py ex12_4.py
+: 1379293805:0;vim ex12_4.py
+: 1379294075:0;python ex12_4.py
+: 1379294087:0;vim ex12_4.py
+: 1379294100:0;python ex12_4.py
+: 1379294360:0;ipython
+: 1379295428:0;tmux detach
+: 1379295432:0;exit
+: 1379372868:0;cd code
+: 1379372869:0;ls
+: 1379372892:0;mkdir pyWeb/
+: 1379372978:0;mkdir real_web
+: 1379373941:0;cd real_web
+: 1379373942:0;ls
+: 1379374230:0;pip list
+: 1379374382:0;virtualenv --no-site-packages chapter2
+: 1379374430:0;source bin/activate
+: 1379374487:0;ls
+: 1379374488:0;cd chapter2
+: 1379374492:0;ls
+: 1379374502:0;source bin/activate
+: 1379374539:0;deactivate
+: 1379374541:0;ls
+: 1379374554:0;cd ../
+: 1379374554:0;ls
+: 1379374560:0;rm chapter2
+: 1379374566:0;rm -R chapter2
+: 1379374566:0;ls
+: 1379374622:0;virtualenv --no-site-packages chapt2
+: 1379374645:0;cd chapt2
+: 1379374663:0;source bin/activate
+: 1379375111:0;ipython
+: 1379375177:0;vim ex2.2a.py
+: 1379375458:0;python ex2.2a.py
+: 1379375479:0;ls
+: 1379375489:0;sqlite3 new.db
+: 1379375806:0;ls
+: 1379375966:0;sqlite3 new.db
+: 1379376247:0;ls
+: 1379376268:0;vim ex2.3a.py
+: 1379376490:0;python ex2.3a.py
+: 1379376508:0;vim ex2.3a.py
+: 1379376531:0;python ex2.3a.py
+: 1379376611:0;sqlite3 new.db
+: 1379376828:0;ls
+: 1379376837:0;vim ex2.3b.py
+: 1379377056:0;python ex2.3b.py
+: 1379377072:0;vim ex2.3b.py
+: 1379377106:0;python ex2.3b.py
+: 1379377119:0;sqlite3 new.db
+: 1379377804:0;vim ex2.3c.py
+: 1379377894:0;ls
+: 1379377935:0;cd Documents/Books/Development/python/RealPythonfortheWeb2/files/chapter\ 2
+: 1379377942:0;ls
+: 1379377966:0;cp employees.csv ~/code/real_web/chapt2/
+: 1379378161:0;python ex2.3c.py
+: 1379378171:0;sqlite3 new.db
+: 1379378255:0;vim ex2.4a.py
+: 1379378376:0;python ex2.4a.py
+: 1379378643:0;vim ex2.4b.py
+: 1379378835:0;python ex2.4b.py
+: 1379378854:0;vim ex2.4b.py
+: 1379379507:0;vim ex2.5a.py
+: 1379379878:0;python ex2.5a.py
+: 1379379901:0;vim ex2.5a.py
+: 1379379934:0;python ex2.5a.py
+: 1379380151:0;vim hw2.2.py
+: 1379380411:0;ls
+: 1379380432:0;vim ex2.2a.py
+: 1379380530:0;vim hw2.2.py
+: 1379380691:0;python hw2.2.py
+: 1379380710:0;vim hw2.2.py
+: 1379380745:0;python hw2.2.py
+: 1379380760:0;vim hw2.2.py
+: 1379380851:0;python hw2.2.py
+: 1379380877:0;vim hw2.2.py
+: 1379380969:0;python hw2.2.py
+: 1379381003:0;vim hw2.2.py
+: 1379381045:0;python hw2.2.py
+: 1379381183:0;vim hw2.5.py
+: 1379381906:0;python hw2.5.py
+: 1379381946:0;vim hw2.5.py
+: 1379382218:0;python hw2.5.py
+: 1379382246:0;sqlite3 cars.db
+: 1379382355:0;vim hw2.5.py
+: 1379382381:0;python hw2.5.py
+: 1379382401:0;vim extra.py
+: 1379382653:0;python extra.py
+: 1379382667:0;sqlite3 cars.db
+: 1379383515:0;vim hw2.5.py
+: 1379383864:0;python hw2.5.py
+: 1379383883:0;vim hw2.5.py
+: 1379383909:0;python hw2.5.py
+: 1379383937:0;vim hw2.5.py
+: 1379384156:0;python hw2.5.py
+: 1379384197:0;sqlite3 cars.db
+: 1379384498:0;python hw2.5.py
+: 1379384647:0;python hw2.2.py
+: 1379384659:0;vim hw2.2.py
+: 1379384719:0;sqlite3
+: 1379384744:0;sqlite3 cars.db
+: 1379384767:0;vim hw2.2.py
+: 1379384779:0;python hw2.5.py
+: 1379385243:0;vim ex2.3a.py
+: 1379385263:0;vim ex2.6a.py
+: 1379386297:0;cp ~/Documents/Books/Development/python/RealPythonfortheWeb2
+: 1379386340:0;cp ~/Documents/Books/Development/python/RealPythonfortheWeb2/Real\ Python\ for\ the\ Web\ -\ v2.pdf ~/Dropbox/Books/Python/
+: 1379459037:0;ls
+: 1379461413:0;cd ls
+: 1379461416:0;ls
+: 1379461422:0;cd code
+: 1379461422:0;ls
+: 1379461430:0;mkdir codecrew
+: 1379461443:0;mkdir codecrew/node
+: 1379461454:0;cd codecrew/node
+: 1379461464:0;ls
+: 1379461473:0;express install
+: 1379461490:0;express newApp
+: 1379461502:0;sudo npm install express
+: 1379461543:0;npm uninstall express
+: 1379461553:0;sudo npm uninstall express
+: 1379461564:0;sudo npm install -g express
+: 1379461573:0;ls
+: 1379461585:0;express newApp
+: 1379461590:0;ls
+: 1379461593:0;cd newApp
+: 1379461596:0;ls
+: 1379461602:0;vim ./
+: 1379461983:0;subl ./
+: 1379462146:0;npm start
+: 1379462208:0;npm install
+: 1379462238:0;npm start
+: 1379463117:0;ls
+: 1379463129:0;ls code
+: 1379463147:0;cd code/codecrew/
+: 1379463154:0;vim notes.txst
+: 1379463160:0;vim notes.txt
+: 1379463244:0;npm -h
+: 1379463256:0;npm install -h
+: 1379463274:0;npm install -S -h
+: 1379978361:0;pwd
+: 1379978478:0;mkdir think/python
+: 1379978489:0;mkdir think/ python/
+: 1379978494:0;ls
+: 1379978500:0;rm -R python
+: 1379978520:0;rm -R think
+: 1379978552:0;mkdir think think/python
+: 1379978566:0;cd think/python
+: 1379978832:0;pip install swampy
+: 1379978845:0;ipython
+: 1379979075:0;vim mypolygon.py
+: 1379979209:0;ls
+: 1379979212:0;pwd
+: 1379979216:0;cd ../../
+: 1379979217:0;ls
+: 1379979249:0;mv think code
+: 1379979259:0;cd code/think/python
+: 1379979493:0;ls
+: 1379979498:0;python mypolygon.py
+: 1379979619:0;vim mypolygon.py
+: 1379979669:0;ipython mypolygon.py
+: 1379979771:0;ld(bob)
+: 1379979774:0;vim mypolygon.py
+: 1379979824:0;python mypolygon.py
+: 1380281073:0;cd ../
+: 1380281075:0;ls
+: 1380281076:0;cd ../
+: 1380281077:0;ls
+: 1380281102:0;mkdir pydata
+: 1380281111:0;cd pydata
+: 1380281115:0;ls
+: 1380281170:0;git clone https://github.com/pydata/pydata-book
+: 1380281654:0;ls
+: 1380281662:0;pip list
+: 1380478835:0;cd code/kaggle
+: 1380478836:0;ls
+: 1380478928:0;ipython
+: 1380484003:0;npm list
+: 1380484021:0;npm install -g grunt-cli
+: 1380484068:0;npm list
+: 1380484077:0;npm -help
+: 1380484104:0;npm list
+: 1380484123:0;node server
+: 1380484129:0;node
+: 1380484166:0;npm search bower
+: 1380484245:0;npm install -g bower
+: 1380484288:0;homebrew list
+: 1380484291:0;brew list
+: 1380484318:0;brew mongodb
+: 1380484326:0;brew search mongodb
+: 1380484331:0;brew update
+: 1380484362:0;brew install mongodb
+: 1380814945:0;cd Desktop
+: 1380814952:0;vim network
+: 1380816885:0;exit
+: 1380996021:0;ipython
+: 1381002422:0;cd ../
+: 1381002423:0;ls
+: 1381002430:0;cd 
+: 1381002433:0;cd ~
+: 1381002435:0;cd code
+: 1381002436:0;ls
+: 1381002440:0;cd pycon
+: 1381002441:0;ls
+: 1381002452:0;mkdir ipy
+: 1381002454:0;cd ipy
+: 1381002454:0;ls
+: 1381002901:0;git clone https://github.com/ipython/ipython-in-depth.git
+: 1381002907:0;ls
+: 1381002909:0;cd ipython-in-depth
+: 1381002910:0;ls
+: 1381002913:0;vim README
+: 1381002946:0;cd notebooks
+: 1381002947:0;ls
+: 1381002990:0;vim ../README
+: 1381002999:0;ipython notebook
+: 1381003027:0;ls
+: 1381003034:0;ipython notebook
+: 1381003080:0;pip install pyzmq
+: 1381003143:0;ipython notebook
+: 1381006228:0;ls
+: 1381006240:0;cd code/pycon/ipy/
+: 1381006240:0;ls
+: 1381006242:0;cd ipython-in-depth
+: 1381006243:0;ls
+: 1381006246:0;cd notebooks
+: 1381006247:0;ls
+: 1381006272:0;ipython
+: 1381006582:0;python simple-embed.py
+: 1381006680:0;ls
+: 1381273746:0;cd code
+: 1381273747:0;ls
+: 1381273750:0;cd pydata
+: 1381273751:0;ls
+: 1381273753:0;cd pydata-book
+: 1381273754:0;ls
+: 1381273759:0;cd ch02
+: 1381273759:0;ls
+: 1381273766:0;cd names
+: 1381273766:0;ls
+: 1381273812:0;ipython
+: 1381275390:0;cd code
+: 1381275390:0;ls
+: 1381275394:0;cd pycon
+: 1381275394:0;ls
+: 1381275398:0;cd pycon2013-master
+: 1381275398:0;ls
+: 1381275411:0;cd ..
+: 1381275412:0;ls
+: 1381275414:0;cd ipy
+: 1381275414:0;ls
+: 1381275417:0;cd ipython-in-depth
+: 1381275417:0;ls
+: 1381275421:0;cd notebooks
+: 1381275432:0;ipython notebook
+: 1381275706:0;cd code/
+: 1381275707:0;ls
+: 1381275717:0;cd pydata/pydata-book/ch02
+: 1381275718:0;ls
+: 1381275722:0;vim birthname.py
+: 1381281469:0;vim plot.py
+: 1381320637:0;cd ../../ch03
+: 1381320640:0;ls
+: 1381320652:0;cd ../
+: 1381320662:0;cd ch04/
+: 1381320667:0;ls
+: 1381320686:0;ipython
+: 1381373700:0;ipython --pylab
+: 1381617019:0;ls
+: 1381617025:0;cd ../
+: 1381617027:0;ls
+: 1381617032:0;mkdir ch04
+: 1381617035:0;cd ch
+: 1381617039:0;cd ch04
+: 1381617046:0;vim random.py
+: 1381688342:0;ipython --pylab
+: 1381690143:0;sudo pip install pandas
+: 1381690157:0;ipython --pylab
+: 1382882215:0;ipython
+: 1382882235:0;quota
+: 1382882243:0;exit
+: 1383608675:0;node --version
+: 1383609199:0;sudo brew install mongodb
+: 1383609255:0;brew update
+: 1383609317:0;brew list
+: 1383609331:0;brew -h
+: 1383609343:0;brew upgrade mongodb
+: 1383609379:0;xcode-select --install
+: 1383610616:0;npm
+: 1383610671:0;npm list
+: 1383610683:0;npm -help
+: 1383610815:0;npm upgrade express - g
+: 1383610821:0;npm upgrade express -g
+: 1383610849:0;npm install express -g
+: 1383611136:0;sudo npm install express -g
+: 1383611402:0;mongo test
+: 1383611444:0;mongod
+: 1383611696:0;npm install -d
+: 1383611709:0;sudo npm install -d
+: 1383611787:0;node app.js
+: 1383611839:0;ls
+: 1383611844:0;cd code/
+: 1383611845:0;ls
+: 1383612344:0;express mytestapp
+: 1383612396:0;node app
+: 1383612402:0;ls
+: 1383612410:0;cd mytestapp
+: 1383612413:0;node app
+: 1383612434:0;ls
+: 1383612461:0;node app.js
+: 1383612478:0;express -v
+: 1383612483:0;express --v
+: 1383612486:0;express -version
+: 1383612494:0;express -h
+: 1383612508:0;express --version
+: 1383612516:0;vim app.js
+: 1383612572:0;node app.js
+: 1383613547:0;cd code/mytestapp
+: 1383613548:0;ls
+: 1383613552:0;node app
+: 1383613562:0;node app.js
+: 1383613826:0;npm install express
+: 1383613870:0;npm install express -g
+: 1383613914:0;sudo npm install express -g
+: 1383613959:0;npm install bower -g
+: 1383614032:0;bower --version
+: 1383614452:0;npm update -g yo
+: 1383614714:0;node app.js
+: 1383614973:0;npm install id
+: 1383615058:0;npm install -d
+: 1383615337:0;node app
+: 1383615560:0;ls
+: 1383615595:0;mkdir public/javascripts/vendor
+: 1383615609:0;ls public/javascripts/
+: 1383615653:0;vim .bowerrc
+: 1383615901:0;bower install angular#1.0.6
+: 1383616057:0;ls
+: 1383616067:0;vim package.json
+: 1383616159:0;vim app.js
+: 1383616304:0;node app.js
+: 1383616317:0;npm install -d
+: 1383616332:0;ls
+: 1383616340:0;vim package.json
+: 1383616401:0;node app.js
+: 1383616410:0;npm install -d
+: 1383617254:0;ls
+: 1383617263:0;ls routes
+: 1383617281:0;vim routes/index.js
+: 1383618428:0;subl .
+: 1383620491:0;bower install bootstrap-css
+: 1383620525:0;bower-install bootstrap-javascript
+: 1383620533:0;bower install bootstrap-javascript
+: 1383620765:0;node app.js
+: 1384054999:0;cd c
+: 1384055002:0;cd code
+: 1384055003:0;ls
+: 1384055009:0;mkdir
+: 1384055016:0;mkdir dds
+: 1384055018:0;cd dds
+: 1384055024:0;git clone https://github.com/oreillymedia/doing_data_science
+: 1384055359:0;ls
+: 1384055361:0;cd doing_data_science
+: 1384055364:0;ls
+: 1384055372:0;unzip dds_datasets.zip
+: 1384055376:0;ls
+: 1384055386:0;vim README.md
+: 1384055400:0;cd dds_datasets
+: 1384055401:0;ls
+: 1384055670:0;brew update
+: 1384055692:0;brew install gfortran
+: 1384095776:0;brew search fortran
+: 1384095784:0;brew install gfortran
+: 1384112261:0;brew install R -verbose
+: 1384112280:0;brew search R
+: 1384112384:0;sudo brew install gfortran -verbose
+: 1384112409:0;brew install gfortran -verbose
+: 1384122467:0;npm install grunt -g
+: 1384122502:0;grunt 
+: 1384122511:0;sudo npm install grunt
+: 1384122835:0;grunt
+: 1384122930:0;cd code
+: 1384122932:0;ls
+: 1384122978:0;heroku
+: 1384122988:0;heroku update
+: 1384127040:0;ls
+: 1384127070:0;express new JSPlygroundToDo
+: 1384127074:0;ls
+: 1384127119:0;cd new
+: 1384127119:0;ls
+: 1384127132:0;cd ../
+: 1384127133:0;ls
+: 1384127142:0;rm -R new
+: 1384127143:0;ls
+: 1384127155:0;express JSPlaygroundToDo
+: 1384127161:0;cd JSPlaygroundToDo
+: 1384127162:0;ls
+: 1384127225:0;mv app.js server.js
+: 1384127226:0;ls
+: 1384127246:0;mv server.js app.js
+: 1384127266:0;subl .
+: 1384127690:0;npm install
+: 1384127707:0;node app.js
+: 1384127758:0;npm start
+: 1384129077:0;cd ../
+: 1384129078:0;ls
+: 1384129107:0;mkdir ExampleProgram.java
+: 1384129110:0;ls
+: 1384129118:0;rm ExampleProgram.java
+: 1384129129:0;rm -R ExampleProgram.java
+: 1384129134:0;mkdir java
+: 1384129135:0;cd j
+: 1384129138:0;cd java
+: 1384129138:0;ls
+: 1384129147:0;vim ExampleProgram.java
+: 1384129239:0;javac ExampleProgram.java
+: 1384129251:0;java ExampleProgram
+: 1384129262:0;ls
+: 1384129288:0;vim SimpleApplet.java
+: 1384129624:0;javac SimpleApplet.java
+: 1384129670:0;vim simple.html
+: 1384129798:0;open simple.html
+: 1384129901:0;safari simple.html
+: 1384129934:0;open -a Safari simple.html
+: 1384129968:0;subl simple.html
+: 1384130011:0;javac SimpleApplet.java
+: 1384130025:0;open -a Safari simple.html
+: 1384130093:0;appletviewer simple.html
+: 1384133668:0;cd../
+: 1384133670:0;cd ../
+: 1384133670:0;ls
+: 1384133682:0;cd img_site
+: 1384133696:0;mkd img_site
+: 1384133702:0;mkdir img_site
+: 1384133704:0;cd img_site
+: 1384133711:0;touch index.html
+: 1384133718:0;mkdir imgs
+: 1384133756:0;subl .
+: 1384133792:0;cd imgs
+: 1384133793:0;ls
+: 1384133816:0;mv IMG_0993.JPG bg1.jpg
+: 1384133842:0;mv IMG_1222.JPG bg2.jpg
+: 1384133852:0;mv IMG_1224.JPG bg3.jpg
+: 1384133853:0;ls
+: 1384134110:0;cd ../
+: 1384134114:0;open index.html
+: 1384135807:0;mv script.js js
+: 1384135808:0;ls
+: 1384723326:0;ls -a
+: 1384723335:0;cd .vim
+: 1384723336:0;ls
+: 1384723345:0;cd ../
+: 1384723354:0;cd .vimrc
+: 1384723358:0;ls
+: 1384723363:0;cd .vim
+: 1384723364:0;ls
+: 1384723368:0;cd bundle
+: 1384723368:0;ls
+: 1384723638:0;git clone https://github.com/scrooloose/syntastic.git
+: 1384723712:0;git clone https://github.com/kien/ctrlp.vim.git
+: 1384723750:0;vim ../../.vimrc
+: 1384724131:0;cd ../
+: 1384724132:0;ls
+: 1384724148:0;git clone https://github.com/rstacruz/sparkup/tree/master/vim
+: 1384724172:0;git clone https://github.com/rstacruz/sparkup
+: 1384724174:0;ls
+: 1384724180:0;cd sparkup
+: 1384724181:0;ls
+: 1384724194:0;rm -R TextMate
+: 1384724239:0;cd vim
+: 1384724239:0;ls
+: 1384724252:0;mv ftplugin ../../
+: 1384724253:0;ls
+: 1384724261:0;ls ../../
+: 1384724269:0;cd ../../
+: 1384724276:0;rm -R sparkup
+: 1384724283:0;ls
+: 1384724309:0;cd ftplugin
+: 1384724310:0;ls
+: 1384724356:0;vim html
+: 1384724431:0;cd ~
+: 1384724436:0;vim .vimrc
+: 1384778605:0;exec '/Applications/Octave.app/Contents/Resources/bin/octave'
+: 1384911477:0;ls
+: 1384911498:0;cd code
+: 1384911499:0;ls
+: 1384911532:0;cd img_site
+: 1384911533:0;ls
+: 1384911536:0;open index.html
+: 1384911570:0;cd ../
+: 1384911571:0;ls
+: 1384911592:0;open img_site
+: 1384992094:0;ls
+: 1384992102:0;cd real_web
+: 1384992103:0;ls
+: 1384992105:0;cd chapt2
+: 1384992105:0;ls
+: 1384992178:0;vim ex2.7a.py
+: 1384992931:0;python ex2.7a.py
+: 1384992993:0;ls
+: 1384993009:0;vim hw2.7.py
+: 1384993210:0;sqlite3 
+: 1384993372:0;sqlite3 new.db
+: 1384993615:0;cd code
+: 1384993615:0;ls
+: 1384993619:0;cd real_web
+: 1384993622:0;cd chapt2
+: 1384993622:0;ls
+: 1384993817:0;vim ex2.8.py
+: 1384994177:0;python ex2.8.py
+: 1384994185:0;ls
+: 1384994227:0;mv ex2.8.py ex2.8a.py
+: 1384994228:0;ls
+: 1384994235:0;vim ex2.8b.py
+: 1384998106:0;python ex2.8b.py
+: 1384998140:0;sqlite3 newnum.db
+: 1384998294:0;vim ex2.8b.py
+: 1384998331:0;python ex2.8b.py
+: 1384998360:0;vim ex2.8b.py
+: 1384998385:0;python ex2.8b.py
+: 1384998401:0;vim ex2.8b.py
+: 1384998799:0;python ex2.8b.py
+: 1385001445:0;vim ex8b.py
+: 1385002035:0;python ex8b.py
+: 1385002042:0;vim ex8b.py
+: 1385002055:0;python ex8b.py
+: 1385002094:0;vim ex8b.py
+: 1385002112:0;python ex8b.py
+: 1385002165:0;cd ../
+: 1385002166:0;ls
+: 1385002186:0;mv chapt2 ch2_database
+: 1385002187:0;ls
+: 1385002215:0;mkdir ch3_clientside
+: 1385002217:0;ls
+: 1385002220:0;cd ch3_clientside
+: 1385002221:0;ls
+: 1385003064:0;pip list
+: 1385003088:0;vim ex2.2a.py
+: 1385003113:0;rm ex2.2a.py
+: 1385003122:0;vim ex3.2a.py
+: 1385003208:0;python ex3.2a.py
+: 1385003217:0;vim ex2.2a.py
+: 1385003223:0;vim ex3.2a.py
+: 1385003237:0;python ex3.2a.py
+: 1385003268:0;vim ex3.2b.py
+: 1385003410:0;python ex3.2b.py
+: 1385003413:0;ls
+: 1385003420:0;open test_requests.html
+: 1385003465:0;gedit test_requests.html
+: 1385003473:0;gedit
+: 1385003530:0;vim test_requests.html
+: 1385003575:0;vim ex3.2d.py
+: 1385003711:0;python ex3.2d.py
+: 1385003747:0;vim ex3.2d.py
+: 1385003757:0;python ex3.2
+: 1385003763:0;python ex3.2d.py
+: 1385004115:0;cp ~/Documents/Books/Development/python/RealPythonfortheWeb2/ls
+: 1385004347:0;vim
+: 1385004359:0;vim ex3.4a.py
+: 1385004477:0;python ex3.4a.py
+: 1385004493:0;vim cars.xml
+: 1385004554:0;vim ex3.4a.py
+: 1385004567:0;python ex3.4a.py
+: 1385004586:0;vim ex3.4b.py
+: 1385004825:0;python ex3.4b.py
+: 1385004831:0;vim ex3.4b.py
+: 1385004872:0;python ex3.4b.py
+: 1385004914:0;vim ex3.4c.py
+: 1385005292:0;python ex3.4c.py
+: 1385005321:0;vim ex3.4c.py
+: 1385005453:0;python ex3.4c.py
+: 1385235716:0;:
+: 1385235837:0;vim ex2.5a.py
+: 1385235847:0;ls
+: 1385235861:0;vim ex3.5a.py
+: 1385235919:0;python ex3.5a.py
+: 1385236008:0;vim ex3.5.b.py
+: 1385236076:0;python ex3.5.b.py
+: 1385236086:0;vim ex3.5.b.py
+: 1385236104:0;python ex3.5.b.py
+: 1385236146:0;vim ex3.5c.py
+: 1385237107:0;python ex3.5c.py
+: 1385237122:0;python ex3.5.b.py
+: 1385237126:0;vim ex3.5c.py
+: 1385237148:0;python ex3.5 
+: 1385237152:0;python ex3.5c.py
+: 1385238142:0;pip install gdata
+: 1385238623:0;vim ex3.6a.py
+: 1385239827:0;vim .vimrc
+: 1385239998:0;vim ex3.6a.py
+: 1385240115:0;python ex3.6a.py
+: 1385240514:0;vim ex3.6a.py
+: 1385240553:0;python ex3.6a.py
+: 1385250544:0;pip install tweepy
+: 1385250953:0;vim ex3.6b.py
+: 1385253256:0;python ex3.6b.py
+: 1385253389:0;vim ex3.6b.py
+: 1385253413:0;python ex3.6b.py
+: 1385253895:0;vim ex3.6b.py
+: 1385253918:0;vim ex3.6a.py
+: 1385255506:0;python
+: 1385256760:0;cd code/real_web
+: 1385256761:0;ls
+: 1385256764:0;cd ch3_clientside
+: 1385256765:0;ls
+: 1385256773:0;ipython 
+: 1385266703:0;vim hw3.6
+: 1385326476:0;ls
+: 1385326492:0;mv hw3.6 hw3.6.py
+: 1385326494:0;ls
+: 1385326503:0;vim hw3.6.py
+: 1385328362:0;python hw3.6.py
+: 1385328393:0;vim hw3.6.py
+: 1385328438:0;python hw3.6.py
+: 1385328906:0;vim hw3.6.py
+: 1385328984:0;python hw3.6.py
+: 1385332890:0;vim hw3.6.py
+: 1385333662:0;python hw3.6.py
+: 1385333672:0;vim hw3.6.py
+: 1385333695:0;python hw3.6.py
+: 1385333703:0;vim hw3.6.py
+: 1385333731:0;python hw3.6.py
+: 1385334061:0;vim hw3.6.py
+: 1385334082:0;python hw3.6.py
+: 1385334128:0;vim hw3.6.py
+: 1385334142:0;python hw3.6.py
+: 1385334169:0;vim hw3.6.py
+: 1385334189:0;python hw3.6.py
+: 1385334469:0;vim hw3.6.py
+: 1385334495:0;python hw3.6.py
+: 1385334520:0;vim hw3.6.py
+: 1385334692:0;python hw3.6.py
+: 1385334699:0;vim hw3.6.py
+: 1385334975:0;python hw3.6.py
+: 1385334990:0;vim hw3.6.py
+: 1385335253:0;python hw3.6.py
+: 1385335340:0;vim hw3.6.py
+: 1385335376:0;python hw3.6.py
+: 1385335389:0;vim hw3.6.py
+: 1385335478:0;python hw3.6.py
+: 1385335599:0;vim hw3.6.py
+: 1385335773:0;python hw3.6.py
+: 1385335780:0;vim hw3.6.py
+: 1385335797:0;python hw3.6.py
+: 1385336165:0;;w
+: 1385336172:0;vim hw3.6.py
+: 1385338815:0;vim ex3.7a.py
+: 1385339186:0;python ex3.7a.py
+: 1385339196:0;ls
+: 1385339351:0;vim ex3.7b.py
+: 1385339774:0;python ex3.7b.py
+: 1385339797:0;vim ex3.7b.py
+: 1385339816:0;python ex3.7b.py
+: 1385339888:0;vim ex3.7b.py
+: 1385339977:0;python ex3.7b.py
+: 1385340005:0;vim ex3.7b.py
+: 1385340049:0;python ex3.7b.py
+: 1385340058:0;vim ex3.7b.py
+: 1385340111:0;python ex3.7b.py
+: 1385340318:0;vim ex3.7b.py
+: 1385340453:0;python ex3.7b.py
+: 1385340592:0;vim ex3.7b.py
+: 1385340654:0;python ex3.7b.py
+: 1385340691:0;vim ex3.7b.py
+: 1385340792:0;python ex3.7b.py
+: 1385340802:0;vim ex3.7b.py
+: 1385340818:0;python ex3.7b.py
+: 1385340839:0;vim ex3.7b.py
+: 1385340883:0;python ex3.7b.py
+: 1385340929:0;vim ex3.7b.py
+: 1385340970:0;python ex3.7b.py
+: 1385340974:0;vim ex3.7b.py
+: 1385341053:0;python ex3.7b.py
+: 1385341063:0;vim ex3.7b.py
+: 1385341114:0;python ex3.7b.py
+: 1385341118:0;vim ex3.7b.py
+: 1385341133:0;python ex3.7b.py
+: 1385341144:0;vim ex3.7b.py
+: 1385341221:0;python ex3.7b.py
+: 1385341233:0;vim ex3.7b.py
+: 1385341261:0;python ex3.7b.py
+: 1385341272:0;vim ex3.7b.py
+: 1385342385:0;python ex3.7b.py
+: 1385342401:0;vim ex3.7b.py
+: 1385342528:0;python ex3.7b.py
+: 1385342542:0;vim ex3.7b.py
+: 1385342630:0;python ex3.7b.py
+: 1385342649:0;vim ex3.7b.py
+: 1385342662:0;python ex3.7b.py
+: 1385342693:0;vim ex3.7b.py
+: 1385342768:0;python ex3.7b.py
+: 1385342785:0;vim ex3.7b.py
+: 1385342901:0;python ex3.7b.py
+: 1385342928:0;vim ex3.7b.py
+: 1385343288:0;python ex3.7b.py
+: 1385343299:0;vim ex3.7b.py
+: 1385343593:0;vim ex3.7a.py
+: 1385343609:0;python ex3.7a.py
+: 1385343631:0;python ex3.7b.py
+: 1385343698:0;vim ex3.7b.py
+: 1385343806:0;sqlite movies.db
+: 1385343815:0;sqlite3 movies.db
+: 1385343950:0;python ex3.7b.py
+: 1385343961:0;python ex3.7a.py
+: 1385343964:0;python ex3.7b.py
+: 1385344363:0;pip install Scrapy
+: 1385344639:0;scrapy startproject hacernews
+: 1385344642:0;ls
+: 1385344663:0;rv -R hacernews
+: 1385344670:0;rm -R hacernews
+: 1385344721:0;ls
+: 1385344745:0;scrapy startproject hackernews
+: 1385344905:0;ls
+: 1385344912:0;cd hackernews
+: 1385344913:0;ls
+: 1385344923:0;ls hackernews
+: 1385344933:0;ls
+: 1385344976:0;vim hackernews/items.py
+: 1385345010:0;ls
+: 1385345037:0;ls hackernews/spiders/
+: 1385345088:0;ls
+: 1385345110:0;cd hackernews
+: 1385345111:0;ls
+: 1385345133:0;vim spiders/spider.py
+: 1385345894:0;ls
+: 1385345904:0;vim items.py
+: 1385346001:0;cd ../
+: 1385346002:0;ls
+: 1385346025:0;scrapy crawl hackernews
+: 1385346087:0;ls
+: 1385346125:0;ls -R
+: 1385346301:0;vim hackernews/spiders/spider.py
+: 1385346369:0;scrapy crawl hackernews
+: 1385346463:0;scrapy crawl hackernews -o items.csv -t csv
+: 1385346467:0;ls
+: 1385346645:0;vim hackernews/spiders/spider.py
+: 1385346659:0;ls
+: 1385346682:0;ls hackernews
+: 1385346694:0;vim hackernews/items.py
+: 1385346794:0;scrapy crawl hackernews -o items.csv -t csv
+: 1385346878:0;cat items.csv
+: 1385346888:0;open items.csv
+: 1385347969:0;vim hackernews/spiders/spider.py
+: 1385348776:0;scrappy sheel http://news.ycombinator.com
+: 1385348807:0;scrapy shell http://news.ycombinator.com
+: 1385349092:0;ls
+: 1385349129:0;scrapy shell http://news.ycombinator.com
+: 1385350465:0;cd ../
+: 1385350466:0;ls
+: 1385350480:0;scrapy startproject wikipedia
+: 1385350491:0;ls
+: 1385350494:0;cd wikipedia
+: 1385350495:0;ls
+: 1385350499:0;cd wikipedia
+: 1385350500:0;ls
+: 1385350502:0;vim items.py
+: 1385350548:0;cd ../
+: 1385350548:0;ls
+: 1385350570:0;scrapy genspider -d basic
+: 1385350576:0;ls
+: 1385350579:0;cd wikipedia
+: 1385350579:0;ls
+: 1385350583:0;cd spiders
+: 1385350584:0;ls
+: 1385350621:0;vim wikibase.py
+: 1385351491:0;cd ../../
+: 1385351527:0;scrapy crawl wiki -o wiki.json -t json
+: 1385351542:0;ls
+: 1385351549:0;cat wiki.json
+: 1385351779:0;vim wikibase.py
+: 1385351792:0;cd wikipedia/spiders/
+: 1385351793:0;ls
+: 1385351798:0;vim wikibase.py
+: 1385352034:0;ls
+: 1385352038:0;cd ../../
+: 1385352038:0;ls
+: 1385352043:0;rm wiki.json
+: 1385352060:0;scrapy crawl wiki -o wiki.json -t json
+: 1385352077:0;cat wiki.json
+: 1385352095:0;rm wiki.json
+: 1385352096:0;ls
+: 1385352102:0;cd wikipedia
+: 1385352103:0;ls
+: 1385352109:0;cd spiders
+: 1385352109:0;ls
+: 1385352115:0;vim wikibase.py
+: 1385352147:0;scrapy crawl wiki -o wiki.json -t json
+: 1385352154:0;cat wiki.json
+: 1385352170:0;rm wiki.json
+: 1385352171:0;ls
+: 1385352181:0;cd ../
+: 1385352184:0;ls
+: 1385352198:0;scrapy crawl wiki -o wiki.json -t json
+: 1385352242:0;vim wikibase.py
+: 1385352298:0;vim wikipedia/spiders/wikibase.py
+: 1385352639:0;ls
+: 1385352644:0;rm wiki.json
+: 1385352680:0;scrapy crawl wiki -o wiki.json -t json
+: 1385352697:0;cat wiki.json
+: 1385352721:0;vim wikipedia/spiders/wikibase.py
+: 1385352812:0;rm wiki.json
+: 1385352818:0;scrapy crawl wiki -o wiki.json -t json
+: 1385352845:0;cat wiki.json
+: 1385353000:0;rm wiki.json
+: 1385353217:0;vim wikipedia/spiders/wikibase.py
+: 1385353323:0;ls
+: 1385353328:0;scrapy crawl wiki -o wiki.json -t json
+: 1385353356:0;vim wikipedia/spiders/wikibase.py
+: 1385353370:0;scrapy crawl wiki -o wiki.json -t json
+: 1385353434:0;vim wikipedia/spiders/wikibase.py
+: 1385353453:0;scrapy crawl wiki -o wiki.json -t json
+: 1385353483:0;vim wikipedia/spiders/wikibase.py
+: 1385353507:0;scrapy crawl wiki -o wiki.json -t json
+: 1385384398:0;scrapy shell "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/"
+: 1386207110:0;cd code
+: 1386207117:0;ls
+: 1386207125:0;cd real_web
+: 1386207126:0;ls
+: 1386207133:0;cd ch3_clientside
+: 1386207133:0;ls
+: 1386207325:0;scrapy startproject socrata
+: 1386207339:0;ls
+: 1386207344:0;cd socrata
+: 1386207351:0;ls
+: 1386207354:0;cd socrata
+: 1386207355:0;ls
+: 1386207360:0;vim items.py
+: 1386207429:0;ls
+: 1386207702:0;cd spiders
+: 1386207702:0;ls
+: 1386207712:0;vim socrata_base.py
+: 1386208795:0;cd ../../
+: 1386208797:0;ls
+: 1386208819:0;scrapy crawl socrata -o socrata.json
+: 1386208833:0;ls
+: 1386208843:0;cat socrata.json
+: 1386208849:0;rm socrata
+: 1386208854:0;rm socrata.json
+: 1386208854:0;ls
+: 1386208872:0;vim socrata/spiders/socrata_base.py
+: 1386209205:0;ls
+: 1386209262:0;scrapy shell https://opendata.socrata.com/
+: 1386211463:0;cd code/real_web/ch3_clientside/socrata
+: 1386211464:0;ls
+: 1386211479:0;vim socrata/spiders/socrata_base.py
+: 1386211832:0;scrapy crawl socrata -o socrata.json
+: 1386211909:0;cat socrata.json
+: 1386211918:0;open socrata.json
+: 1386212022:0;vim socrata/spiders/socrata_base.py
+: 1386212158:0;ls
+: 1386212161:0;rm socrata.json
+: 1386212188:0;scrapy crawl socrata -o socrata.json
+: 1386213342:0;cat socrata.json
+: 1386213476:0;vim socrata/spiders/socrata_base.py
+: 1386213590:0;rm socrata.json
+: 1386213620:0;scrapy crawl socrata -o socrata.json
+: 1386213636:0;cat socrata.json
+: 1386213652:0;open socrata.json
+: 1386213689:0;vim socrata/spiders/socrata_base.py
+: 1386214130:0;cp socrata/spiders/socrata_base.py socrata_crawl.py
+: 1386214132:0;ls
+: 1386214140:0;ls socrata/spiders/
+: 1386214191:0;mv socrata_crawl.py socrata/spiders/
+: 1386214205:0;ls socrata/spiders
+: 1386214216:0;vim socrata/spiders/socrata_crawl.py
+: 1386215156:0;ls
+: 1386215163:0;ls socrata
+: 1386215173:0;vim socrata/settings.py
+: 1386215256:0;ls
+: 1386215263:0;cd socrata
+: 1386215263:0;ls
+: 1386215304:0;import sqlite3
+: 1386215327:0;conn = sqlite3.connect("project.db")
+: 1386215330:0;ls
+: 1386215372:0;conn = sqlite3.connect("project.db")
+: 1386215414:0;cursor = conn.cursor()\
+\
+\
+end
+: 1386215417:0;ls
+: 1386215426:0;ipython
+: 1386215534:0;ls
+: 1386215547:0;vim pipelines.py
+: 1386215862:0;ls
+: 1386215872:0;vim settings.py
+: 1386215952:0;scrapy crawl socrata -o project.db -t sqlite
+: 1386216558:0;scrapy crawl socrata -o socrata.csv
+: 1386216571:0;scrapy crawl socrata2 -o socrata.csv
+: 1386216590:0;ls
+: 1386216601:0;cat socrata.csv
+: 1386216614:0;open socrata.csv
+: 1386217136:0;cd code
+: 1386217138:0;ls
+: 1386217160:0;cd ../
+: 1386217166:0;cd Projects
+: 1386217168:0;ls
+: 1386217191:0;rm -R ruby
+: 1386293000:0;cd code/real_web/ch4_serverside
+: 1386293002:0;ls
+: 1386293005:0;cd cgihttp
+: 1386293006:0;ls
+: 1386293015:0;cd cgi-bin
+: 1386293016:0;ls
+: 1386293028:0;cd ../../
+: 1386293146:0;ls
+: 1386293148:0;cd simplehttp
+: 1386293149:0;ls
+: 1386293216:0;python -m SimpleHTTPServer 8000
+: 1386293500:0;ifconfig
+: 1386293590:0;ifconfig | grep "inet" | grep -v 127.0.0.1
+: 1386293710:0;python -m SimpleHTTPServer 8000
+: 1386293826:0;ifconfig en1
+: 1386293925:0;vim ex4.2a.py
+: 1386296047:0;python ex4.2a.py 5000
+: 1386296528:0;cd ../
+: 1386296530:0;ls
+: 1386296533:0;cd cgihttp
+: 1386296534:0;ls
+: 1386296609:0;vim cgi-bin/ex4.3b.py
+: 1386296776:0;sudo chmod 755 cgi-bin
+: 1386296801:0;sudo chmod 755 cgi-bin/ex4.3b.py
+: 1386296862:0;python -m CGIHTTPServer
+: 1386296908:0;open http://localhost:8000/cgi-bin/ex4.3b.py
+: 1386296979:0;which python
+: 1386296989:0;vim cgi-bin/ex4.3b.py
+: 1386297035:0;sudo chmod 755 cgi-bin/ex4.3b.py
+: 1386297047:0;python -m CGIHTTPServer
+: 1386297078:0;cd code/real_web/ch4_serverside
+: 1386297079:0;ls
+: 1386297081:0;cd cgihttp
+: 1386297082:0;ls
+: 1386297089:0;cd cgi-bin
+: 1386297090:0;ls
+: 1386297103:0;sudo chmod 755 ex4.3b.py
+: 1386297289:0;vim ex4.3b.py
+: 1386297318:0;python -m CGIHTTPServer
+: 1386297790:0;vim ex4.3b.py
+: 1386297831:0;python -m CGIHTTPServer
+: 1386298186:0;cd ../
+: 1386298188:0;ls
+: 1386298202:0;vim shebang.py
+: 1386298267:0;./shebang.py
+: 1386298311:0;sudo chmod 755 shebang.py
+: 1386298320:0;./shebang.py
+: 1386298344:0;python shebang.py
+: 1386298349:0;vim shebang.py
+: 1386298369:0;python shebang.py
+: 1386298373:0;./shebang.py
+: 1386298404:0;vim shebang.py
+: 1386298420:0;rm shebang.py
+: 1386298494:0;cd cgihttp
+: 1386298494:0;ls
+: 1386298497:0;cd ch
+: 1386298499:0;cd cgi-bin
+: 1386298510:0;vim ex4.3c.html
+: 1386298782:0;cat ex4.3
+: 1386298790:0;cat ex4.3c.html
+: 1386298879:0;vim ex4.3c.py
+: 1386299226:0;python -m CGIHTTPServer
+: 1386299287:0;ls
+: 1386299340:0;sudo chmod 755 ex4.3c.py
+: 1386299348:0;cd ../
+: 1386299349:0;ls
+: 1386299364:0;python -m CGIHTTPServer
+: 1386299417:0;mv cgi-bin/ex4.3c.html ../
+: 1386299418:0;ls
+: 1386299433:0;ls cgi-bin
+: 1386299440:0;cd ../
+: 1386299441:0;ls
+: 1386299472:0;mv ex4.3c.html cgihttp
+: 1386299473:0;ls
+: 1386299475:0;cd ch
+: 1386299478:0;cd cgihttp
+: 1386299479:0;ls
+: 1386299493:0;python -m CGIHTTPServer
+: 1386299562:0;lsl
+: 1386299563:0;ls
+: 1386299566:0;cd cgi-bin
+: 1386299566:0;ls
+: 1386299575:0;vim ex4.3c.py
+: 1386299696:0;cd ../
+: 1386299697:0;ls
+: 1386299706:0;python -m CGIHTTPServer
+: 1386299990:0;ls
+: 1386300014:0;vim ex4.3d.html
+: 1386300240:0;ls
+: 1386300280:0;vim cgi-bin/ex4.2d.py
+: 1386300578:0;ls
+: 1386300604:0;cd cgi-bin
+: 1386300605:0;ls
+: 1386300634:0;cd ../
+: 1386300634:0;ls
+: 1386300657:0;cd cgi-bin
+: 1386300657:0;ls
+: 1386300665:0;vim ex4.2d.py
+: 1386300699:0;mv ex4.2d.py ex4.3d.py
+: 1386300700:0;ls
+: 1386300709:0;cd ../
+: 1386300710:0;ls
+: 1386300716:0;cd cgi-bin
+: 1386300717:0;ls
+: 1386300736:0;chmod 755 ex4.3d.py
+: 1386300744:0;cd ../
+: 1386300745:0;ls
+: 1386300761:0;python -m CGIHTTPServer
+: 1386300816:0;vim cgi-bin/ex4.3d.py
+: 1386300834:0;python -m CGIHTTPServer
+: 1386301135:0;ls
+: 1386301146:0;vim ex4.3e.html
+: 1386301437:0;vim cgi-bin/ex4.3e.py
+: 1386301877:0;ls
+: 1386301883:0;cd cgi-bin
+: 1386301896:0;chmod 755 ex4.3e.py
+: 1386301898:0;cd ../
+: 1386301898:0;ls
+: 1386301910:0;open ex4.3e.html
+: 1386301946:0;python -m CGIHTTPServer
+: 1386469719:0;ls
+: 1386469749:0;cd cgi-bin
+: 1386469750:0;ls
+: 1386469759:0;vim ex4.3f.py
+: 1386469931:0;vim ~/.zshrc
+: 1386470026:0;source .zshrc
+: 1386470028:0;ls
+: 1386470072:0;cdpb
+: 1386470078:0;cd ~
+: 1386470165:0;cd code/real_web/ch4_serverside
+: 1386470166:0;ls
+: 1386470169:0;cd cgihttp
+: 1386470173:0;ls
+: 1386470195:0;vim cgi-bin/ex4.3g.py
+: 1386470202:0;ls
+: 1386470206:0;cd cgi-bin
+: 1386470207:0;ls
+: 1386470209:0;cd ../
+: 1386470221:0;vim ex4.3f.py
+: 1386470902:0;chmod 755 cgi-bin/ex4.3f.py
+: 1386470908:0;ls
+: 1386470921:0;mv ex4.3f.py cgi-bin
+: 1386470922:0;ls
+: 1386470934:0;chmod 755 cgi-bin/ex4.3f.py
+: 1386470971:0;python -m CGIHTTPServer
+: 1386472714:0;ls
+: 1386472729:0;vim cgi-bin/ex4.3g.py
+: 1386472823:0;chmod 755 cgi-bin/ex4.3g.py
+: 1386472852:0;python -g CGIHTTPServer
+: 1386472895:0;python -m CGIHTTPServer
+: 1386473125:0;cd ../
+: 1386473128:0;ls
+: 1386473134:0;mkdir blog
+: 1386473136:0;cd blog
+: 1386473137:0;ls
+: 1386473144:0;mkdir cgi-bin
+: 1386473149:0;chmod 755 cgi-bin
+: 1386473253:0;vim blog.html
+: 1386473364:0;vim cgi-bin
+: 1386473384:0;vim cgi-bin/db_setup.py
+: 1386474290:0;ls 
+: 1386474301:0;mv cgi-bin/db_setup.py ./
+: 1386474302:0;ls
+: 1386474307:0;python db_setup.py
+: 1386474341:0;vim db_setup.py
+: 1386474432:0;python db_setup.py
+: 1386474439:0;ls
+: 1386474443:0;rm post.db
+: 1386474446:0;python db_setup.py
+: 1386474849:0;vim db_check.py
+: 1386546148:0;ls
+: 1386546178:0;cd cgi-bin
+: 1386546179:0;ls
+: 1386546182:0;cd ../
+: 1386546197:0;ls
+: 1386546205:0;vim db_check.py
+: 1386546382:0;ls
+: 1386546405:0;vim db_setup.py
+: 1386546427:0;ls
+: 1386546441:0;vim db_check.py
+: 1386546554:0;ls
+: 1386546560:0;cd ../
+: 1386546561:0;ls
+: 1386546563:0;cd ../
+: 1386546564:0;ls
+: 1386546568:0;cd ch2_database
+: 1386546569:0;ls
+: 1386546582:0;vim ex8b.py
+: 1386546849:0;vim ex2.7a.py
+: 1386546871:0;cd ../
+: 1386546873:0;ls
+: 1386546877:0;cd ch4_serverside
+: 1386546878:0;ls
+: 1386546880:0;cd blog
+: 1386546881:0;ls
+: 1386546890:0;vim db_check.py
+: 1386546965:0;python db_check.py
+: 1386546976:0;vim db_check.py
+: 1386546992:0;python db_check.py
+: 1386547136:0;vim db_check.py
+: 1386547413:0;python db_check.py
+: 1386547648:0;vim db_setup.py
+: 1386547678:0;vim db_check.py
+: 1386547707:0;python db_check.py
+: 1386547714:0;vim db_setup.py
+: 1386547944:0;rm post.db
+: 1386547945:0;ls
+: 1386547957:0;python db_setup.py
+: 1386547963:0;python db_check.py
+: 1386547974:0;vim db_check.py
+: 1386547993:0;python db_check.py
+: 1386548002:0;vim db_check.py
+: 1386548035:0;python db_check.py
+: 1386548317:0;vim cgi-bin
+: 1386548359:0;vim cgi-bin/blog_index.py
+: 1386550236:0;chmod 755 cgi-bin/blog_index.py
+: 1386550342:0;pyton -m CGIHTTPServer
+: 1386550348:0;python -m CGIHTTPServer
+: 1386550397:0;wget http://localhost:8000
+: 1386550771:0;python -m CGIHTTPServer
+: 1386550827:0;chmod 755 cgi-bin
+: 1386550837:0;wget http://localhost:8000
+: 1386550843:0;python -m CGIHTTPServer
+: 1386550940:0;cd code
+: 1386550947:0;cd real_web/ch4_serverside
+: 1386550947:0;ls
+: 1386550957:0;cd blog
+: 1386550957:0;ls
+: 1386550967:0;vim db_setup.py
+: 1386550977:0;vim cgi-bin/blog_index.py
+: 1386551117:0;python -m CGIHTTPServer
+: 1386551337:0;vim cgi-bin/blog_index.py
+: 1386551358:0;ls -a cgi-bin/
+: 1386551366:0;rm cgi-bin/.blog_index.py.swp
+: 1386551406:0;vim cgi-bin/blog_list.py
+: 1386551437:0;ls
+: 1386552852:0;ls cgi-bin
+: 1386552863:0;vim cgi-bin/blog_index.py
+: 1386552878:0;ls
+: 1386552889:0;python -m CGIHTTPServer
+: 1386635649:0;homebrew update
+: 1386635654:0;brew update
+: 1386635686:0;ls -r
+: 1386635689:0;ls -R
+: 1386635779:0;vim cgi-bin/posts_index.py
+: 1386635889:0;vim cgi-bin/blog_index.py
+: 1386635915:0;python -m CGIGTTPServer
+: 1386635928:0;python -m CGIHTTPServe
+: 1386635930:0;python -m CGIHTTPServer
+: 1386635971:0;sudo chmod 755 cgi-bin
+: 1386635991:0;sudo chmod 755 cgi-bin/blog_index.py
+: 1386635997:0;python -m CGIHTTPServer
+: 1386636017:0;vim cgi-bin/blog_index.py
+: 1386636041:0;python -m CGIHTTPServer
+: 1386636057:0;cd ../
+: 1386636058:0;ls
+: 1386636067:0;chmod 755 blog
+: 1386636078:0;cd blog
+: 1386636086:0;chmod 755 cgi-bin/posts_index.py
+: 1386636092:0;vim cgi-bin/posts_index.py
+: 1386637133:0;python cgi-bin/posts_index.py
+: 1386637218:0;ls
+: 1386637249:0;ipython cgi-bin/posts_index.py
+: 1386637258:0;ls
+: 1386637261:0;who
+: 1386637264:0;which
+: 1386637266:0;?
+: 1386637267:0;??
+: 1386637306:0;vim cgi-bin/posts_index.py
+: 1386637326:0;python cgi-bin/posts_index.py
+: 1386637331:0;ls
+: 1386637350:0;rm blog.
+: 1386637353:0;rm blog.db
+: 1386637363:0;mv post.db blog.db
+: 1386637363:0;ls
+: 1386637376:0;python cgi-bin/posts_index.py
+: 1386637394:0;cgi-bin/posts_index.py
+: 1386637446:0;python which
+: 1386637459:0;python who
+: 1386637470:0;which python
+: 1386637503:0;pip list
+: 1386637514:0;who pip
+: 1386637522:0;which pip
+: 1386637531:0;which python
+: 1386637597:0;vim cgi-bin
+: 1386637619:0;cgi-bin/posts_index.py
+: 1386637627:0;vim cgi-bin
+: 1386637672:0;python -m CGIHTTPServer
+: 1386642525:0;cd ../cgihttp/
+: 1386642525:0;ls
+: 1386642531:0;cd cgi-bin
+: 1386642532:0;ls
+: 1386642542:0;vim ex4.3b.py
+: 1386642556:0;ls
+: 1386642565:0;cd ../
+: 1386642566:0;ls
+: 1386642584:0;python -m CGIHTTPServer
+: 1386642676:0;ls
+: 1386642685:0;cat cgi-bin/ex4.3b.py
+: 1386642703:0;ls
+: 1386642714:0;vim cgi-bin
+: 1386719169:0;vim cgi-bin/posts_index.py
+: 1386719187:0;python -m CGIHTTPServer
+: 1386719599:0;ls
+: 1386719605:0;ls cgi-bin
+: 1386719611:0;cd ../
+: 1386719612:0;ls
+: 1386719617:0;cd blog/cgi-bin
+: 1386719617:0;ls
+: 1386719677:0;vim posts_index.py
+: 1386719708:0;ls
+: 1386719712:0;cd ../
+: 1386719728:0;python cgi-bin/posts_index.py
+: 1386719750:0;vim ls
+: 1386719764:0;ls
+: 1386719772:0;ls cgi-bin
+: 1386719787:0;vim cgi-bin/posts_index.py
+: 1386719860:0;ls
+: 1386719868:0;python cgi-bin/posts_index.py
+: 1386719962:0;python -m CGIHTTPServer
+: 1386720043:0;cd code/real_web/ch4_serverside/blog
+: 1386720044:0;ls
+: 1386729693:0;
+: 1386720104:0;cd code/real_web/ch4_serverside/blog
+: 1386720105:0;ls
+: 1386720165:0;sudo chmod 755 cgi-bin
+: 1386720211:0;sudo chmod 755 cgi-bin/posts_index.py
+: 1386720266:0;ls
+: 1386720268:0;cd ../
+: 1386720269:0;ls
+: 1386720277:0;sudo chmod 755 blog
+: 1386720283:0;cd blog/
+: 1386720283:0;ls
+: 1386720303:0;python -m CGIHTTPServer
+: 1386720372:0;vim cgi-bin/posts_index.py
+: 1386720382:0;python -m CGIHTTPServer
+: 1386720460:0;cd code/real_web/ch4_serverside
+: 1386720461:0;ls
+: 1386720472:0;ls -a cgihttp
+: 1386720509:0;ls -l
+: 1386720523:0;cd ../
+: 1386720524:0;ls
+: 1386720527:0;ls -l
+: 1386720928:0;chmod og+w blog
+: 1386720931:0;ls -l
+: 1386721022:0;ls -l cgihttp/
+: 1386721036:0;ls -l blog/
+: 1386721060:0;ls
+: 1386721067:0;cd blog
+: 1386721068:0;ls
+: 1386721075:0;python -m CGIHTTPServer
+: 1386721201:0;ls -l cgihttp/cgi-bin
+: 1386721213:0;ls -l blog/cgi-bin
+: 1386721238:0;cp cgihttp/cgi-bin/ex4.3b.py blog/cgi-bin
+: 1386721264:0;python -m CGIHTTPServer
+: 1386721459:0;ls
+: 1386721461:0;cd ../
+: 1386721469:0;ls
+: 1386721473:0;cd cgihttp
+: 1386721473:0;ls
+: 1386721490:0;python -m CGIHTTPServer
+: 1386722021:0;ls
+: 1386722025:0;cd ../
+: 1386722025:0;ls
+: 1386722060:0;cp blog/cgi-bin/posts_index.py cgihttp/cgi-bin/
+: 1386722064:0;ls
+: 1386722067:0;cd cgihttp
+: 1386722068:0;ls
+: 1386722078:0;cd cgi-bin
+: 1386722079:0;ls
+: 1386722089:0;cd ../
+: 1386722094:0;ls
+: 1386722111:0;python -m CGIHTTPServer
+: 1386722153:0;ls
+: 1386722161:0;cd cgi-bin
+: 1386722162:0;ls
+: 1386722165:0;ls -l
+: 1386722178:0;cd ../
+: 1386722179:0;ls
+: 1386722452:0;cd cgi-bin
+: 1386722453:0;ls
+: 1386722455:0;vim posts_index.py
+: 1386722512:0;ls
+: 1386722516:0;ls ../
+: 1386722530:0;ls
+: 1386722532:0;vim posts_index.py
+: 1386723178:0;ls
+: 1386723181:0;cd ../
+: 1386723182:0;ls
+: 1386723211:0;which python
+: 1386723264:0;ls
+: 1386723290:0;mv cgi-bin/posts_index.py cgi-bin/ex4.4_blog3.py
+: 1386723309:0;python -m CGIHTTPServer
+: 1386723563:0;cd ../../
+: 1386723566:0;l
+: 1386723567:0;ls
+: 1386723657:0;mkdir ch5
+: 1386723660:0;cd ch
+: 1386723664:0;cd ch5
+: 1386723664:0;ls
+: 1386723718:0;virtualenv flask --no-site-packages
+: 1386723727:0;ls
+: 1386723730:0;cd flask
+: 1386723731:0;ls
+: 1386723744:0;source bin/activate
+: 1386723754:0;pip install flask
+: 1386723908:0;ls
+: 1386723930:0;vim ex5.3a.py
+: 1386724754:0;python ex5.3a.py
+: 1386724803:0;vim ex5.3a.py
+: 1386724879:0;vim first.py
+: 1386724980:0;vim second.py
+: 1386725005:0;python first.py
+: 1386725010:0;pytho second.py
+: 1386725015:0;python second.py
+: 1386725959:0;vim ex5.3a.py
+: 1386725979:0;python ex5.3a.py
+: 1386726714:0;cd ../
+: 1386726718:0;ls
+: 1386726732:0;pyton
+: 1386726735:0;python
+: 1386726956:0;cd flask
+: 1386726957:0;ls
+: 1386726965:0;vim ex5.3a.py
+: 1386726995:0;python ex5.3a.py
+: 1386727005:0;vim ex5.3a.py
+: 1386727015:0;python ex5.3a.py
+: 1386727045:0;ls
+: 1386727054:0;source bin/activate
+: 1386727071:0;mkdir blog
+: 1386727091:0;mkdir blog/staic blog/templates
+: 1386727104:0;touch blog/blog.py
+: 1386727324:0;cd b
+: 1386727327:0;cd blog
+: 1386727328:0;ls
+: 1386727350:0;vim fblog1.py
+: 1386727697:0;python fblog1.py
+: 1386727784:0;vim blog.py
+: 1386728184:0;ls
+: 1386728208:0;vim templates/main.html
+: 1386728337:0;vim templates/login.html
+: 1386728440:0;vim blog.py
+: 1386728847:0;vim templates/template.html
+: 1386729075:0;python blog.py
+: 1386729088:0;vim blog.py
+: 1386729209:0;python blog.py
+: 1386729232:0;ipython blog.py
+: 1386729289:0;pyton -m pbd blog.py
+: 1386729303:0;python -m pbd blog.py
+: 1386729425:0;vim blog.py
+: 1386729438:0;python blog.py
+: 1386729450:0;vim blog.py
+: 1386729466:0;python blog.py
+: 1386729538:0;vim templates/login.html
+: 1386729625:0;python blog.py
+: 1386729650:0;vim ~/.zshrc
+: 1386729689:0;py blog.py
+: 1386729709:0;py
+: 1386729716:0;source .zshrc
+: 1386729719:0;py
+: 1386729728:0;vim .zshrc
+: 1386729769:0;cd code/real_web/ch5
+: 1386729774:0;cd flask
+: 1386729778:0;ls
+: 1386729780:0;cd ../
+: 1386729781:0;ls
+: 1386729784:0;cd flask
+: 1386729795:0;ls
+: 1386729803:0;source bin/activate
+: 1386729814:0;python blog
+: 1386729821:0;cd blog
+: 1386729821:0;ls
+: 1386729826:0;python blog.py
+: 1386729912:0;vim templates/main.html
+: 1386729972:0;python blog.py
+: 1386730052:0;vim templates/main.html
+: 1386730065:0;vim blog.py
+: 1386730085:0;vim templates/main.html
+: 1386730122:0;python blog.py
+: 1386730140:0;vim templates/main.html
+: 1386730166:0;python blog.py
+: 1386730373:0;vim blog.py
+: 1386766073:0;bbrew update
+: 1386766076:0;brew update
+: 1386840861:0;brew search ph
+: 1386840868:0;brew search php
+: 1386840963:0;ls
+: 1386840971:0;vim templates/login.html
+: 1386841232:0;vim blog.py
+: 1386841247:0;vim templates/login.html
+: 1386841608:0;python blog.py
+: 1386841661:0;vim blog.py
+: 1386841703:0;vim templates/login.html
+: 1386841932:0;python blog.py
+: 1386842288:0;vim blog.py
+: 1386842347:0;python blog.py
+: 1386842389:0;cd code/real_web/ch5
+: 1386842437:0;ls
+: 1386842446:0;cd flask/blog
+: 1386842447:0;ls
+: 1386842451:0;vim blog.py
+: 1386842495:0;vim templates/login.html
+: 1386842666:0;python blog.py
+: 1386842724:0;vim templates/login.html
+: 1386842758:0;python blog.py
+: 1386842808:0;vim templates/login.html
+: 1386945062:0;vim blog.py
+: 1386945566:0;python blog.py
+: 1386945621:0;vim templates/main.html
+: 1386945662:0;vim templates/template.html
+: 1386945949:0;vim templates/main.html
+: 1386946000:0;python blog.py
+: 1386946667:0;vim blog.py
+: 1386973928:0;cd
+: 1386973991:0;ls
+: 1386973998:0;cd =a
+: 1386974003:0;ls -al
+: 1386974079:0;uninstall_oh_my_zsh
+: 1386974085:0;ls
+: 1386974090:0;ap
+: 1386974133:0;zsh
